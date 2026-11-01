@@ -1,0 +1,21 @@
+{
+  "_readme": "Every input to analysis/market_model.py. 'sourced' values cite data/sources.md; 'assumption' values are analyst judgement and are stress-tested in the sensitivity analysis.",
+  "fx_idr_per_usd": {"value": 17300, "type": "assumption", "note": "Close to the Rp17,320 used by Bisnis.com in May 2026; update before use."},
+  "women_15_34_m": {"value": 43.3187, "type": "sourced", "source": "BPS population projection 2025 by age & sex (15-19, 20-24, 25-29, 30-34)"},
+  "men_15_34_m": {"value": 45.6462, "type": "sourced", "source": "BPS population projection 2025 by age & sex (15-19, 20-24, 25-29, 30-34)"},
+  "women_any_use": {"value": 0.75, "type": "sourced", "source": "Jakpat Beauty Trends 2024: 75% of women use sunscreen"},
+  "men_any_use": {"value": 0.42, "type": "sourced", "source": "Jakpat Beauty Trends 2024: 42% of men use sunscreen"},
+  "women_daily_use": {"value": 0.35, "type": "sourced", "source": "Snapcart survey: 35% of Indonesian women apply sunscreen daily"},
+  "men_daily_use": {"value": 0.10, "type": "assumption", "low": 0.05, "high": 0.15},
+  "units_per_daily_user": {"value": 4.0, "type": "assumption", "low": 3.0, "high": 6.0, "note": "30-50 ml units per year; recommended dose would imply more, real usage is lighter"},
+  "units_per_occasional_user": {"value": 1.5, "type": "assumption", "low": 1.0, "high": 2.0},
+  "avg_realised_price_idr": {"value": 40000, "type": "assumption", "low": 30000, "high": 55000, "note": "Average paid per unit across all tiers after vouchers and multi-packs; observed hero SKUs Rp47k-123k per unit, long tail much cheaper"},
+  "age_35_plus_uplift": {"value": 0.25, "type": "assumption", "low": 0.15, "high": 0.40, "note": "Spend from users aged 35+ as a share on top of the 15-34 core"},
+  "ecom_sunscreen_h1_2024_idr_bn": {"value": 914, "type": "sourced", "source": "Compas via Gizmologi: sunscreen e-commerce sales Rp914bn in H1 2024"},
+  "ecom_sunscreen_h2_2023_idr_bn": {"value": 530, "type": "sourced", "source": "Compas via Gizmologi: Rp530bn in H2 2023"},
+  "ecom_growth_2025_2026": {"value": 0.25, "type": "assumption", "low": 0.15, "high": 0.40, "note": "Annual growth of e-commerce sunscreen sales after the 2024 surge; beauty e-commerce grew strongly per Compas"},
+  "ecom_share_of_purchases": {"value": 0.68, "type": "sourced-secondary", "source": "Jakpat Premium Report as cited in Undip thesis: e-commerce = 68% of skincare purchases"},
+  "java_share": {"value": 0.5565, "type": "sourced", "source": "BPS SUPAS 2025: 55.65% of population lives on Java"},
+  "premium_mass_tier_share": {"value": 0.25, "type": "assumption", "low": 0.15, "high": 0.35, "note": "Share of sunscreen value sold at Rp80k-130k per unit"},
+  "som_share_of_sam": {"low": 0.02, "base": 0.04, "high": 0.06, "type": "assumption", "note": "Year-3 share. Benchmark: the #4 brand (Skintific) holds ~5.2% of all e-commerce sunscreen sales"}
+}

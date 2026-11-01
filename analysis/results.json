@@ -1,0 +1,103 @@
+{
+  "results": {
+    "bottom_up": {
+      "units_women_m": 86.6374,
+      "units_men_m": 40.16865599999999,
+      "core_15_34_idr_bn": 5072.24224,
+      "tam_idr_bn": 6340.3028
+    },
+    "top_down": {
+      "ecom_2024_idr_bn": 1828,
+      "ecom_2026_idr_bn": 2856.25,
+      "tam_idr_bn": 4200.367647058823
+    },
+    "gap_pct": 0.40603397358624105,
+    "tam_idr_bn": 5270.335223529411,
+    "tam_usd_m": 304.6436545392723,
+    "sam_idr_bn": 498.600063822,
+    "sam_usd_m": 28.82081293768786,
+    "som_idr_bn": {
+      "low": 9.97200127644,
+      "base": 19.94400255288,
+      "high": 29.916003829319997
+    },
+    "som_usd_m": {
+      "low": 0.5764162587537572,
+      "base": 1.1528325175075145,
+      "high": 1.7292487762612714
+    },
+    "fx": 17300
+  },
+  "sensitivity": [
+    {
+      "base": 1.1528325175075145,
+      "key": "premium_mass_tier_share",
+      "label": "Premium-mass tier share",
+      "low_value": 0.15,
+      "high_value": 0.35,
+      "som_low": 0.6916995105045087,
+      "som_high": 1.61396552451052,
+      "swing": 0.9222660140060113
+    },
+    {
+      "base": 1.1528325175075145,
+      "key": "avg_realised_price_idr",
+      "label": "Avg. realised price per unit",
+      "low_value": 30000,
+      "high_value": 55000,
+      "som_low": 0.9794728798213873,
+      "som_high": 1.4128719740367053,
+      "swing": 0.43339909421531797
+    },
+    {
+      "base": 1.1528325175075145,
+      "key": "units_per_daily_user",
+      "label": "Units per daily user / year",
+      "low_value": 3.0,
+      "high_value": 6.0,
+      "som_low": 1.0449600412170523,
+      "som_high": 1.368577470088439,
+      "swing": 0.32361742887138667
+    },
+    {
+      "base": 1.1528325175075145,
+      "key": "ecom_growth_2025_2026",
+      "label": "E-commerce growth 2025-26",
+      "low_value": 0.15,
+      "high_value": 0.4,
+      "som_low": 1.082269604212717,
+      "som_high": 1.2697023426520233,
+      "swing": 0.1874327384393064
+    },
+    {
+      "base": 1.1528325175075145,
+      "key": "units_per_occasional_user",
+      "label": "Units per occasional user / year",
+      "low_value": 1.0,
+      "high_value": 2.0,
+      "som_low": 1.065516302313295,
+      "som_high": 1.2401487327017342,
+      "swing": 0.17463243038843923
+    },
+    {
+      "base": 1.1528325175075145,
+      "key": "age_35_plus_uplift",
+      "label": "Spend from users aged 35+",
+      "low_value": 0.15,
+      "high_value": 0.4,
+      "som_low": 1.097357433447954,
+      "som_high": 1.2360451435968551,
+      "swing": 0.13868771014890124
+    },
+    {
+      "base": 1.1528325175075145,
+      "key": "men_daily_use",
+      "label": "Share of men using daily",
+      "low_value": 0.05,
+      "high_value": 0.15,
+      "som_low": 1.1216305034106937,
+      "som_high": 1.1840345316043352,
+      "swing": 0.06240402819364155
+    }
+  ]
+}
